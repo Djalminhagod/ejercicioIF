@@ -22,7 +22,7 @@ public class ejercicio7 {
                 System.out.println("C Aprovado");
             }else if(nota<=89){
                 System.out.println("B Notable");
-            }else if(nota>=90 && nota<=100){
+            }else{
                 System.out.println("A Sobresaliente");
             }
         }else {
