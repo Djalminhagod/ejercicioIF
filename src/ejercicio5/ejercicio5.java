@@ -9,7 +9,7 @@ public class ejercicio5 {
         int ano = sc.nextInt();
         if (ano%4==0 && ano%100!=0){
             System.out.println("año bisiesto");
-        }else if (ano%100==0 && ano%400!=0){
+        }else if (ano%100==0 && ano%4!=0 || ano%400!=0){
             System.out.println("el año no es bisiesto");
         }else if (ano%400==0){
             System.out.println("año es bisiesto");
