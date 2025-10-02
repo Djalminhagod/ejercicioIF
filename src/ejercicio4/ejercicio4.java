@@ -7,7 +7,7 @@ public class ejercicio4 {
      Scanner sc = new Scanner(System.in);
      System.out.println("Ingrese su peso KG: ");
      double peso = sc.nextDouble();
-     System.out.println("Ingrese sua altura cm: ");
+     System.out.println("Ingrese sua altura m: ");
      double altura = sc.nextDouble();
      double IMC = peso/(altura*altura);
      if(IMC<18.5){
